@@ -1,21 +1,33 @@
-# PlantUML Element Tags
+# PlantUML Element Theme
+
+## Usage
+
+```txt
+!include https://raw.githubusercontent.com/rs-lkroneman/plantuml-element-tags/master/c4-theme.puml
+```
+
+Then add tags to your c4 elements
+
+```txt
+$tags="mobileApplication"
+```
 
 ## ElementTags
 
-mobileApplication - purple
-webApplication - green
-adminApplication - blue
-internalService - aqua
-awsService - orange
-hiddenContainer - transparent
+- mobileApplication - purple
+- webApplication - green
+- adminApplication - blue
+- internalService - aqua
+- awsService - orange
+- hiddenContainer - transparent
 
 ## Rels (Lines between things)
 
-mobileRel - purple
-webRel - green
-adminRel - blue
-internalRel - aqua
-externalRel - red
+- mobileRel - purple
+- webRel - green
+- adminRel - blue
+- internalRel - aqua
+- externalRel - red
 
 ## Example
 
@@ -23,7 +35,7 @@ externalRel - red
 @startuml examples/basic-c4-diagram
 
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
-!include c4-theme.puml
+!include https://raw.githubusercontent.com/rs-lkroneman/plantuml-element-tags/master/c4-theme.puml
 
 title E$ Customer Engagement API - C2 Diagram
 
