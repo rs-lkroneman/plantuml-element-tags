@@ -31,6 +31,9 @@ $tags="mobileApplication"
 
 ## Example
 
+![Example](out/examples/basic-c4-diagram/examples%20basic-c4-diagram.svg)
+
+
 ```plantuml
 @startuml examples/basic-c4-diagram
 
