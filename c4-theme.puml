@@ -1,0 +1,13 @@
+AddElementTag("mobileApplication", $fontColor=$ELEMENT_FONT_COLOR, $bgColor="#634fb3", $borderColor="transparent", $legendText="Mobile")
+AddElementTag("webApplication", $fontColor=$ELEMENT_FONT_COLOR, $bgColor="#35bd59", $borderColor="transparent", $legendText="Web")
+AddElementTag("adminApplication", $fontColor=$ELEMENT_FONT_COLOR, $bgColor="#0073b9", $borderColor="transparent", $legendText="Admin")
+AddElementTag("internalService", $fontColor=$ELEMENT_FONT_COLOR, $bgColor="#00b6c7", $legendText="Internal Service")
+AddElementTag("awsService", $fontColor=$ELEMENT_FONT_COLOR, $bgColor="#FF9900", $legendText="AWS Service")
+AddElementTag("hiddenContainer", $fontColor=$ELEMENT_FONT_COLOR, $bgColor="transparent", $borderColor="transparent")
+
+AddRelTag("mobileRel", $textColor=$ARROW_FONT_COLOR, $lineColor="#634fb3", $lineStyle=SolidLine(), $legendText="Mobile")
+AddRelTag("webRel", $textColor=$ARROW_FONT_COLOR, $lineColor="#35bd59", $lineStyle=SolidLine(), $legendText="Web")
+AddRelTag("adminRel", $textColor=$ARROW_FONT_COLOR, $lineColor="#0073b9", $lineStyle=SolidLine(), $legendText="Admin")
+AddRelTag("internalRel", $textColor=$ARROW_FONT_COLOR, $lineColor="#00b6c7", $lineStyle=SolidLine(), $legendText="Internal")
+AddRelTag("externalRel", $textColor=$ARROW_FONT_COLOR, $lineColor="#e64b40", $lineStyle=SolidLine(), $legendText="External")
+skinparam linetype ortho
